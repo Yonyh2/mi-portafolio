@@ -211,6 +211,19 @@ section h2 {
   margin-right: 1rem;
   font-weight: 600;
 }
+#inicio button {
+  background-color: var(--color-primario);
+  color: var(--color-fondo);
+  border: none;
+  padding: 0.8rem 1.5rem;
+  border-radius: 6px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+#inicio button:hover {
+  background-color: #1e4fd8;
+}
 
 /* =====================
    FORMACION

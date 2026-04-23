@@ -72,6 +72,16 @@ const btnCV = document.querySelector("#inicio a:nth-of-type(2)");
 btnCV.addEventListener("click", () => {
   window.open("files/CV-Yony-Huertas.pdf", "_blank");
 });
+// =====================
+// BOTON DESCARGAR INSTRUCCIONES
+// =====================
+
+const btnINST = document.querySelector("#btn-instrucciones");
+
+btnINST.addEventListener("click", (e) => {
+  e.preventDefault(); // evita comportamiento raro
+  window.open("files/Instrucciones.pdf", "_blank");
+});
 
 // =====================
 // AÑO AUTOMATICO FOOTER
